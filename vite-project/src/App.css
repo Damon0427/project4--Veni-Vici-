@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.cat-box {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 550px;
+  height: 550px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.cat-box img {
+  width: 100%;
+  height: 270px;
+  max-height: 60%;
+  
+  border-radius: 10px;
+  object-fit: contain;
+}
+.cat-box button{
+  margin: 3px ;
+  margin-bottom: 10px;
+}
+.main-container{
+  background-color: #000000da;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.next-button{
+  margin-bottom: 20px;
+  padding: 10px 40px ;
+  transition: transform 0.1s ease;
+}
+.next-button:active {
+  transform: scale(0.8);
+}
+
+.ban-list{
+  position: fixed;
+  top: 10%;
+  right: 0;
+  background-color: #0000006d;
+  padding: 10px 20px;
+  border-radius: 13px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: 200px;
+
+}
+.ban-list button{
+  width:180px;
+  margin-bottom:10px ;
+}
