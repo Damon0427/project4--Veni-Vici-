@@ -43,6 +43,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
+
 <img src="vite-project/src/assets/showcase.gif" width="400px" />
 
 
